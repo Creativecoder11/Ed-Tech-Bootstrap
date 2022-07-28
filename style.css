@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* navbar styles  */
+.navbar-brand{
+    color: crimson;
+}
+.nav-link{
+    color: #777777;
+}
+.nav-register-btn{
+    border: 2px solid crimson;
+    color: crimson;
+}
+.nav-register-btn:hover{
+    background-color: crimson;
+    color: white;
+}
+
+/* carousel styles  */
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.7;
+}
+/* explore styles  */
+.explore-iiner{
+    background-color: #F4FAFD;
+}
+/* bonus section  */
+.bonus-section{
+    background-color: crimson;
+}
+/* common btn design  */
+.carousel-btn, .view-all-btn, .explore-btn{
+    background-color: crimson;
+    color: white;
+}
+.bonus-section-btn{
+    color: crimson;
+}
+.bonus-section-btn:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: crimson;
+}
+footer h2{
+    color: crimson;
+}
+
+/* media for screen */
+@media only screen and (max-width:575px) {
+    .courses-img img{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:576px) {
+   
+    .question-content{
+        width: 50%;
+    }
+}
